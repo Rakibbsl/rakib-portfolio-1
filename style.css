@@ -7,11 +7,20 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+.color-h3 {
+    color: orange;
+    font-size: 25px;
+}
+
 .color-for-name {
     color: chartreuse;
 }
 
-section {
+.flexible {
     display: flex;
 }
 
@@ -54,4 +63,38 @@ p {
 
 #margin {
     margin-right: 100px;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 65px;
+
+}
+
+.box-Shadow {
+    width: 40%;
+    height: 350px;
+    padding-left: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 2px;
+
+}
+
+#border-one {
+    border-left: 5px solid blue;
+}
+
+#border-two {
+    border-left: 5px solid red;
+}
+
+footer {
+    margin: 30px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    text-align: center;
 }
